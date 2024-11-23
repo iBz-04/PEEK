@@ -26,7 +26,13 @@ const nextConfig = {
       hostname: 'utfs.io',
       port: '',
       pathname: '/**'
-    }]
+    }, {
+      protocol: 'https',
+      hostname: 'res.cloudinary.com',
+      port: '',
+      pathname: '/**'
+    }
+  ]
   }
 };
 module.exports = nextConfig;

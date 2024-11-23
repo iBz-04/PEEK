@@ -8,7 +8,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cr.rasmic.xyz"),
+  metadataBase: new URL("https://peek.vercel.app/"),
   title: {
     default: 'PEEK',
     template: `%s | PEEK`
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   description: 'Review of third-party or custom components before they are integrated into your project',
   openGraph: {
     description: 'Review of third-party or custom components before they are integrated into your project',
-    images: ['https://utfs.io/f/68fbf583-0a13-43d5-bf31-e39931508671-twtuhf.jpeg'],
-    url: 'https://cr.rasmic.xyz/'
+    images: ['https://res.cloudinary.com/diekemzs9/image/upload/v1732352734/Screenshot_2024-11-23_120307_p1qog7.png'],
+    url: 'https://peek.vercel.app/'
   },
   twitter: {
     card: 'summary_large_image',
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteId: "",
     creator: "@iBz-04",
     creatorId: "",
-    images: ['https://utfs.io/f/68fbf583-0a13-43d5-bf31-e39931508671-twtuhf.jpeg'],
+    images: ['https://res.cloudinary.com/diekemzs9/image/upload/v1732352734/Screenshot_2024-11-23_120307_p1qog7.png'],
   },
 }
 
